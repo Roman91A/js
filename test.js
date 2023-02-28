@@ -1,3 +1,4 @@
+// Пример 1 
 var startTime = '28.02.2023 14:48'
 var endTime = '10.03.2023 00:00'
 var currentDate = moment.utc()
@@ -10,7 +11,7 @@ function BetweenDates() {
 console.log(BetweenDates())
 
 
-
+// Пример 2
 var startTime = '28.02.2023 14:50'
 var endTime = '10.03.2023 00:00'
 var currentDate = moment.utc().add(3, 'hours');
